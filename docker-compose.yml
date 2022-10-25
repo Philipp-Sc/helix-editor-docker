@@ -1,0 +1,9 @@
+services:
+  editor:
+    build:
+       context: .
+       dockerfile: ./Dockerfile_Editor
+    image: helix-editor-image
+    volumes:
+       - ./package:/usr/workspace
+
