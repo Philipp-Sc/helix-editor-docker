@@ -4,4 +4,11 @@
 - ```docker-compose build editor```
 - ```docker-compose run --rm editor hx .```
 
-You might want to edit the mountpoint for the volume.
+You might want to edit the mountpoint for the volume.    
+
+
+
+Dependencies:
+
+- docker
+- docker-compose
